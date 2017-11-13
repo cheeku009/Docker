@@ -3,7 +3,7 @@
 
 
 FROM debian:stable
-MAINTAINERS cheeku009<srikanthkandregula9@gmail.com>
+MAINTAINER cheeku009 <srikanthkandregula9@gmail.com>
 
-RUN apt-get update
+RUN apt-get update && apt-get install -y telnet
 
